@@ -6,7 +6,7 @@ let gainSlider;
 
 function setup() {
   let cnv = createCanvas(windowWidth, windowHeight);
-  cnv.id('xenolux-canvas');
+  cnv.id('chromaWeave-canvas');
   
   colorMode(HSB, 360, 100, 100, 1);
   angleMode(DEGREES);
@@ -96,7 +96,7 @@ function initAudio() {
 }
 
 function saveArt() {
-  saveCanvas('Xenolux_Capture', 'png');
+  saveCanvas('chromaWeave_Capture', 'png');
 }
 
 function updateMeter(v, g) {
