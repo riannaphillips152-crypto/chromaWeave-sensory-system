@@ -96,7 +96,7 @@ function initAudio() {
 }
 
 function saveArt() {
-  saveCanvas('chromaWeave_Capture', 'png');
+  saveCanvas('chroma_Grid', 'png');
 }
 
 function updateMeter(v, g) {
